@@ -1,0 +1,167 @@
+[
+    {
+        "crop_name": "Crop Name",
+        "scientific_name": "Scientific name of the crop",
+        "family": "Taxonomic family of the crop",
+        "description": "Brief description of the crop",
+        "sowing_time": "Month(s) for sowing",
+        "transplanting_time": "Month(s) for transplanting (if applicable)",
+        "harvesting_time": "Month(s) for harvesting",
+        "planting_depth": "Recommended planting depth (in inches or centimeters)",
+        "spacing": "Recommended spacing between plants (in inches or centimeters)",
+        "growing_temperature": {
+            "min_temperature": "Minimum temperature tolerance (in Celsius or Fahrenheit)",
+            "max_temperature": "Maximum temperature tolerance (in Celsius or Fahrenheit)"
+        },
+        "growing_conditions": [
+            "Suitable weather conditions",
+            "Optimal sunlight exposure",
+            "Required humidity levels",
+            "Watering frequency and amount"
+        ],
+        "soil_requirements": {
+            "soil_type": "Suitable soil type",
+            "ph_range": "Optimal pH range for soil",
+            "drainage": "Preferred soil drainage",
+            "nutrient_requirements": [
+                "Nitrogen",
+                "Phosphorus",
+                "Potassium",
+                "Other micronutrients"
+            ]
+        },
+        "common_pests": [
+            {
+                "pest_name": "Name of common pest",
+                "description": "Description of the pest",
+                "prevention_methods": "Preventive measures against the pest",
+                "control_methods": "Control measures for the pest"
+            }
+        ],
+        "common_diseases": [
+            {
+                "disease_name": "Name of common disease",
+                "description": "Description of the disease",
+                "prevention_methods": "Preventive measures against the disease",
+                "control_methods": "Control measures for the disease"
+            }
+        ],
+        "other_notes": "Any additional notes or tips for cultivating the crop"
+    },
+    {
+        "crop_name": "Tomato",
+        "scientific_name": "Solanum lycopersicum",
+        "family": "Solanaceae",
+        "description": "Tomato is a popular fruit/vegetable known for its versatility in cooking and its rich nutritional content.",
+        "sowing_time": "February to April",
+        "transplanting_time": "4 to 6 weeks after sowing",
+        "harvesting_time": "May to September",
+        "planting_depth": "0.25 to 0.5 inches (0.6 to 1.3 cm)",
+        "spacing": "18 to 24 inches (45 to 60 cm) between plants, 24 to 36 inches (60 to 90 cm) between rows",
+        "growing_temperature": {
+            "min_temperature": "10°C (50°F)",
+            "max_temperature": "30°C (86°F)"
+        },
+        "growing_conditions": [
+            "Requires full sunlight",
+            "Moderate humidity levels",
+            "Regular watering, avoid over-watering"
+        ],
+        "soil_requirements": {
+            "soil_type": "Well-drained loamy soil",
+            "ph_range": "6.0 to 6.8",
+            "drainage": "Good drainage",
+            "nutrient_requirements": [
+                "High in nitrogen, moderate in phosphorus and potassium",
+                "Additional micronutrients may be required based on soil test"
+            ]
+        },
+        "common_pests": [
+            {
+                "pest_name": "Tomato hornworm",
+                "description": "Large green caterpillars that feed on tomato leaves and fruits",
+                "prevention_methods": "Handpicking and destroying larvae, attracting natural predators like parasitic wasps",
+                "control_methods": "Bacillus thuringiensis (Bt) or chemical insecticides"
+            },
+            {
+                "pest_name": "Whiteflies",
+                "description": "Small white insects that suck sap from tomato plants, causing yellowing and wilting",
+                "prevention_methods": "Use of reflective mulches, introducing natural predators like ladybugs",
+                "control_methods": "Neem oil or insecticidal soap"
+            }
+        ],
+        "common_diseases": [
+            {
+                "disease_name": "Early blight",
+                "description": "Fungal disease causing brown spots on leaves and stem, leading to defoliation",
+                "prevention_methods": "Crop rotation, use of disease-resistant varieties, proper sanitation",
+                "control_methods": "Fungicides containing chlorothalonil or copper-based fungicides"
+            },
+            {
+                "disease_name": "Late blight",
+                "description": "Fungal disease causing dark lesions on leaves and fruits, leading to plant death",
+                "prevention_methods": "Avoiding overhead watering, proper spacing for air circulation",
+                "control_methods": "Fungicides containing mancozeb or copper-based fungicides"
+            }
+        ],
+        "other_notes": "Support tomato plants with stakes or cages to prevent fruit from touching the ground and reduce disease risk."
+    },
+    {
+        "crop_name": "Potato",
+        "scientific_name": "Solanum tuberosum",
+        "family": "Solanaceae",
+        "description": "Potato is a starchy tuberous crop widely cultivated for its edible underground tubers.",
+        "sowing_time": "March to May",
+        "transplanting_time": "Not applicable",
+        "harvesting_time": "June to October",
+        "planting_depth": "3 to 4 inches (7.6 to 10.2 cm)",
+        "spacing": "12 to 15 inches (30 to 38 cm) between plants, 30 inches (76 cm) between rows",
+        "growing_temperature": {
+            "min_temperature": "7°C (45°F)",
+            "max_temperature": "24°C (75°F)"
+        },
+        "growing_conditions": [
+            "Requires full sunlight",
+            "Moderate humidity levels",
+            "Regular watering, avoid over-watering"
+        ],
+        "soil_requirements": {
+            "soil_type": "Well-drained sandy loam",
+            "ph_range": "4.8 to 5.5",
+            "drainage": "Good drainage",
+            "nutrient_requirements": [
+                "Moderate nitrogen, high phosphorus and potassium",
+                "Additional micronutrients may be required based on soil test"
+            ]
+        },
+        "common_pests": [
+            {
+                "pest_name": "Colorado potato beetle",
+                "description": "Striped beetles that feed on potato foliage, causing defoliation",
+                "prevention_methods": "Handpicking and destroying larvae, crop rotation",
+                "control_methods": "Bacillus thuringiensis (Bt) or chemical insecticides"
+            },
+            {
+                "pest_name": "Wireworms",
+                "description": "Yellow-brown larvae that bore into potato tubers, causing damage",
+                "prevention_methods": "Crop rotation, planting traps crops like mustard",
+                "control_methods": "Nematodes or chemical insecticides"
+            }
+        ],
+        "common_diseases": [
+            {
+                "disease_name": "Late blight",
+                "description": "Fungal disease causing dark lesions on leaves and tubers, leading to plant death",
+                "prevention_methods": "Proper spacing for air circulation, avoiding overhead watering",
+                "control_methods": "Fungicides containing mancozeb or copper-based fungicides"
+            },
+            {
+                "disease_name": "Early blight",
+                "description": "Fungal disease causing brown spots on leaves and stem, leading to defoliation",
+                "prevention_methods": "Crop rotation, use of disease-resistant varieties, proper sanitation",
+                "control_methods": "Fungicides containing chlorothalonil or copper-based fungicides"
+            }
+        ],
+        "other_notes": "Hilling soil around potato plants helps prevent tubers from being exposed to sunlight, reducing greening."
+    }
+]
